@@ -1,0 +1,189 @@
+body{
+    background-image: url(./sahara\ desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.Z{
+    color: white;
+}
+.flex{
+    border:2px solid rgba(0, 0, 0, 0);
+    width: 400px;
+    float: right;
+    display: flex; justify-content: center;
+    padding:5px; margin-top: 0px;
+    
+}
+
+
+.home{
+    border:2px solid rgba(0, 0, 0, 0);
+    text-align: center;
+    margin: 20px; width: 70px;
+    color:black;
+    cursor: pointer;
+}
+
+
+.Box4{
+    background-image:url(./menu.png);
+    width: 40px; height: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 10px;
+    cursor: pointer; 
+}
+
+.camel{
+    background-image: url(./logo.png);
+    background-repeat: no-repeat;
+    width: 50px; height: 50px;
+    background-size: cover;
+    position: absolute; left:150px; top: 50px;;
+}
+.Box5{
+    background-image: url(./istockphoto-468877835-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.Box6{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Box7{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Box8{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex1{
+    border:2px solid rgba(0, 0, 0, 0);
+    height:480px;
+    display: flex;
+    justify-content:space-around; 
+    align-items:center;
+    flex-flow: row wrap;
+    width: 40%; 
+    position: absolute; top:15%; left: 55%;
+    color: black;
+}
+
+.p{
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 200px; height: 200px;
+    margin: 20px ;
+    line-height: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    font-size:smaller;
+    text-align: center;
+    cursor: pointer;
+}
+.p:hover{
+    position: relative; bottom:15px;
+}
+.flex2{
+    position: absolute;  top: 30%; left: 5%;
+}
+
+.header{
+    font-size: 100px;
+    color: white;
+}
+
+.div1{
+    color: white;
+}
+
+.b1{
+    display:flex;
+}
+
+.exp{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    width:120px;
+    text-align: center;
+    cursor:default;
+    padding: 8px; background-color: white;
+}
+
+/* Media queries */
+
+/* Mobile Screen queries */
+@media only screen and (max-width: 856px){
+    
+    body{
+        background-size:auto;
+        background-repeat: repeat-y;
+        
+    }
+    
+    .camel{
+        position: absolute; left: 40px; top: 15px;
+    }
+
+    .flex{
+        width: 70%;
+        flex-direction: row;
+    }
+    
+    .flex2{
+        position: absolute; top: 10%;
+    }
+
+    .header{
+        font-size: 50px;
+    }
+    
+   .b1{
+    display: inline-block;
+   }
+
+   .exp{
+    position: absolute; top: 120%;
+   }
+
+   .flex1{
+   position: absolute; top: 50%; left: 10%;
+   width: 88%; height:1200px;
+ }
+ .Box5{
+    height: 200px;
+    text-align: left;
+    background-size:cover;
+}
+
+I{
+    display: inline;
+}
+
+.Box6{
+    height: 200px;
+    background-size:600px 250px;
+}
+
+.Box7{
+    height: 200px;
+    background-size:600px 250px;
+    
+}
+
+.Box8{
+    height: 200px;
+    background-size:600px 250px;
+}
+ .p{
+    width: 550px;
+ }
+}
+    
